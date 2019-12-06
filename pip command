@@ -1,0 +1,36 @@
+Microsoft Windows [版本 10.0.18362.418]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+C:\Users\hacker>
+C:\Users\hacker>pip install splinter
+Collecting splinter
+  Downloading https://files.pythonhosted.org/packages/4e/33/6d6e3abeb0fa47284f2d3b74de7f72018a3af0267b0752b9e7c66175c99e/splinter-0.11.0.tar.gz
+Collecting selenium>=3.141.0 (from splinter)
+  Downloading https://files.pythonhosted.org/packages/80/d6/4294f0b4bce4de0abf13e17190289f9d0613b0a44e5dd6a7f5ca98459853/selenium-3.141.0-py2.py3-none-any.whl (904kB)
+    100% |████████████████████████████████| 911kB 4.4MB/s
+Requirement already satisfied: six in c:\users\hacker\appdata\local\programs\python\python37\lib\site-packages\six-1.12.0-py3.7.egg (from splinter) (1.12.0)
+Requirement already satisfied: urllib3 in c:\users\hacker\appdata\local\programs\python\python37\lib\site-packages\urllib3-1.25.3-py3.7.egg (from selenium>=3.141.0->splinter) (1.25.3)
+mysql-connector-python 8.0.16 requires protobuf>=3.0.0, which is not installed.
+Installing collected packages: selenium, splinter
+  Running setup.py install for splinter ... done
+Successfully installed selenium-3.141.0 splinter-0.11.0
+You are using pip version 10.0.1, however version 19.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\hacker>
+C:\Users\hacker>upgrade pip
+'upgrade' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\hacker>python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl (1.4MB)
+    100% |████████████████████████████████| 1.4MB 2.0MB/s
+mysql-connector-python 8.0.16 requires protobuf>=3.0.0, which is not installed.
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-19.3.1
+
+C:\Users\hacker>
